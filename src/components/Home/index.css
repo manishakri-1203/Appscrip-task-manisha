@@ -1,0 +1,55 @@
+.home-container{
+    width: 100%;
+}
+
+.filter-and-recommendation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+}
+
+.quantity-filter-container{
+    display: flex;
+    align-items: center;
+}
+
+.item-quantity{
+    color: #252020;
+    font-size: 18px;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+@media screen and (max-width: 767px){
+    .item-quantity{
+        display: none;
+    }
+}
+
+.filter-container{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.filter-button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    font-family: "Roboto";
+    font-size: 16px;
+}
+
+.recommendations{
+    border: none;
+    outline: none;
+    color: #252020;
+    font-size: 18px;
+    font-family: 600;
+}
+
+.filter-product-section{
+    display: flex;
+}

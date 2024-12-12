@@ -1,0 +1,127 @@
+.footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: start;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+  }
+  
+  .footer-section {
+    flex: 1;
+    margin: 10px;
+    min-width: 200px;
+  }
+  
+  .newsletter h4,
+  .contact h4,
+  .links h4,
+  .social h4 {
+    margin-bottom: 10px;
+    font-size: 16px;
+  }
+  
+  .newsletter-form {
+    display: flex;
+    gap: 10px;
+    width: 400px;
+  }
+  
+  .newsletter-form input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+  }
+  
+  .newsletter-form button {
+    padding: 10px 20px;
+    background-color: #444;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .contact p,
+  .currency span {
+    margin-bottom: 5px;
+  }
+  
+  .links ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .links ul li {
+    margin-bottom: 5px;
+  }
+  
+  .social-icons,
+  .payment-icons {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  
+  .social-icons a,
+  .payment-icons span {
+    background-color: #222;
+    padding: 5px 10px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 12px;
+  }
+  
+  .copyright {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+  }
+  
+  @media (max-width: 768px) {
+    .footer-section {
+      flex: 1 1 100%;
+      text-align: center;
+    }
+  
+    .newsletter-form {
+      flex-direction: column;
+    }
+  }
+  
+  .upper-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .input-email{
+    width: 100%;
+  }
+
+  .bottom-part{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+  }
+
+  .separation-line{
+    width: 100%;
+    background-color: #fff;
+  }
+
+  .usd-container{
+    display: flex;
+    align-items: center;
+  }
